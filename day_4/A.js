@@ -1,6 +1,6 @@
 const input = require('fs').readFileSync('data.txt').toString().split(/\r\n/g);
 const drawOrder = input.splice(0,1)[0].split(",");
-//test
+
 const cardSize = 5;
 let bingoCards = [];
 while(input.length > 0){
